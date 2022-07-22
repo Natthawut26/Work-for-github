@@ -10,36 +10,36 @@ print("Let's Start the Game :) ",name_player)
 
 score = 0
 
-answer = input(' What is CPU stands for? \n ')
-if answer.lower() == 'central processing unit':
+answer = input('2+2=? \n ')
+if answer.lower() == '4':
     print("Correct")
     score += 1
 else:
     print('Wrong')
  
-answer = input(' What is GPU stands for? \n ')
-if answer.lower() == 'graphical processing unit':
+answer = input('50+30=? \n ')
+if answer.lower() == '80':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is RAM stands for? \n ')
-if answer.lower() == 'random access memory':
+answer = input('3+2*5=? \n ')
+if answer.lower() == '13':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' What is ROM stands for? \n ')
-if answer.lower() == 'read only memory':
+answer = input('8-5*2? \n ')
+if answer.lower() == '-2':
     print("Correct")
     score += 1
 else:
     print('Wrong')
 
-answer = input(' Mouse is an input device or output device? \n ')
-if answer.lower() == 'input device':
+answer = input('(100-50)+2*2? \n ')
+if answer.lower() == '54':
     print("Correct")
     score += 1
 else:
